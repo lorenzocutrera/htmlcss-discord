@@ -34,7 +34,7 @@ header {
     justify-content: center;
 }
 
-a {
+.center a {
     text-decoration: none;
     color: white;
     padding: 0 10px;
@@ -43,25 +43,64 @@ a {
 .accedi {
     background-color: white;
     color: #265ee9;
-    font-size: 15px;
+    font-size: 12px;
     border-radius: 20px;
-    padding: 5px 10px;
+    padding: 8px 10px;
     margin: 5px;
+    text-decoration: none;
 }
 
 
 .start {
-    min-height: 300px;
+    background-image: url(img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 530px;
     width: 100%;
     display: flex;
 }
 
-.grey{
-    background-color: gray;
-    height: 200px;
+.info1 {
+    min-height: 200px;
     width: 700px;
     margin: auto;
+    margin-top: 100px;
+    text-align: center;
 }
+
+h1{
+    font-size: 50px;
+}
+
+.info1 h1, p, a {
+    padding: 2rem;
+}
+
+.down_mac {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 12px 15px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.down_icon {
+    width: 20px;
+    margin: 0 10px;
+}
+
+.open_discord {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 12px 15px;
+    margin: 5px;
+    text-decoration: none;
+}
+
 
 section {
     min-height: 500px;
