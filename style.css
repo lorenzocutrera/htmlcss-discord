@@ -124,11 +124,10 @@ section {
 .col{
     color: black;
     min-height: 200px;
-    border: 1px solid gray;
     align-items: center;
     margin-top: 50px;
     width: 16%;
-
+    display: flex;
 }
 
 h2, p {
@@ -179,11 +178,18 @@ h3{
     justify-content: space-between;
  }
 
+.social{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
  .last{
     height: 40px;
     display: flex;
     justify-content: space-between;
  }
+
 
  .button{
     background-color: rgb(249, 197, 101);
