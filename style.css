@@ -116,6 +116,10 @@ section {
     margin: auto;
 }
 
+.gray{
+    background-color: #f6f6f6;
+}
+
 .row{
     display: flex;
     justify-content: space-between;
@@ -124,10 +128,10 @@ section {
 .col{
     color: black;
     min-height: 200px;
-    align-items: center;
     margin-top: 50px;
     width: 16%;
     display: flex;
+    flex-direction: column;
 }
 
 h2, p {
@@ -173,13 +177,12 @@ h3{
  }
 
  footer{
-    background-color: blue;
+    background-color: #23272a;
     min-height: 500px;
     justify-content: space-between;
  }
 
 .social{
-    text-align: left;
     display: flex;
     flex-direction: column;
 }
@@ -192,21 +195,65 @@ h3{
 
 
  .button{
-    background-color: rgb(249, 197, 101);
-    border: 1px solid gray;
     height: 20px;
     width: 100px;
     margin-top: 15px;
  }
 
  footer .container{
-    background-color: brown;
+    background-color: #23272a;
  }
 
  footer .col{
-    background-color: rgb(249, 197, 101);
+    color: white;
+    margin-bottom: 50px;
  }
 
- footer .uno{
-    background-color: greenyellow;
+
+ footer h4{
+    font-size: 35px;
+    color: #7289db;
+    margin-bottom: 20px;
  }
+
+ footer .brand {
+    filter: invert(1);
+}
+
+h5{
+    color: #7289db;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    margin: 20x 0px;
+}
+
+.button img{
+    width: 100%;
+}
+
+.button a{
+    background-color: #8ea2e1;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+.wave img{
+    width: 100%;
+}
+
+.wavedown img{
+    width: 100%;
+    transform: rotate(180deg);
+}
+
+.fill{
+
+}
